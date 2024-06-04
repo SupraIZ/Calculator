@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         lastNumeric = true
         lastDot = false
 
-        var sentence = "Supratim is not a coder"
+        var sentence = "Supratim is not a coder."
         if(sentence.contains("Supratim")){
             tvInput?.append("Supra")
         }
