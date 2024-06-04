@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
-import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     private var tvInput: TextView? = null
@@ -24,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         lastNumeric = true
         lastDot = false
 
-        var sentence = "Supratim is a coder"
+        var sentence = "Supratim is not a coder"
         if(sentence.contains("Supratim")){
             tvInput?.append("Supra")
         }
