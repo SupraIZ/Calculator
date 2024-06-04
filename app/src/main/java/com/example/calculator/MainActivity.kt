@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
     fun onOperator(view: View){
         tvInput?.text?.let{
             if(lastNumeric && !isOperatorAdded(it.toString())){
-
+                print("Hello")
             }
         }
     }
