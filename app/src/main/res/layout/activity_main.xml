@@ -57,7 +57,7 @@
             android:layout_weight="1"
             android:layout_marginHorizontal="2dp"
             android:text="/"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             android:backgroundTint="@color/green"/>
 
         </LinearLayout>
@@ -101,7 +101,7 @@
             android:layout_weight="1"
             android:layout_marginHorizontal="2dp"
             android:text="@string/Multiply"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             android:backgroundTint="@color/green"/>
 
     </LinearLayout>
@@ -145,7 +145,7 @@
             android:layout_weight="1"
             android:layout_marginHorizontal="2dp"
             android:text="@string/Add"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             android:backgroundTint="@color/green"/>
 
     </LinearLayout>
@@ -192,7 +192,7 @@
             android:layout_weight="1"
             android:layout_marginHorizontal="2dp"
             android:text="@string/Subtract"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             android:backgroundTint="@color/green"/>
 
 
@@ -207,10 +207,10 @@
             android:id="@+id/btnEqual"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_weight="2"
             android:layout_marginHorizontal="2dp"
             android:text="@string/equal"
-            android:onClick="onDigit"
+            android:onClick="onEqual"
             android:backgroundTint="@color/green"/>
 
     </LinearLayout>
